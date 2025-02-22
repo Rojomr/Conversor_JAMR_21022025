@@ -1,0 +1,36 @@
+<!DOCTYPE html> 
+    <html lang="en-us" dir="ltr" >
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="descripción" content=" Aplicacion web progreciva para la convercion de temperatura"/>
+        <meta name="keywords" content=" Calculo,matematico,convercion,temperatura,practica,investigacion,estudio,convercion"/>
+        <meta name="Autor" content=" Jose Alejandro Montenegro Ruiz"/>
+        <meta name="copyright" content="  2025 JAMR"/>
+        <meta name="viewport" content=" Width=device-width,initial-scale=1"/>
+        <title>Comvertidor de temperatura</title>
+        <link rel="shortcut icon" href="https://c.s-microsoft.com/favicon.ico?v2"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="fonts/fontawesome-free-6.6.0-web/css/all.css"/>
+    </head>
+    <body>
+        <h1>Convertidor de temperatura </h1>
+        <form id="converter">
+            <label for="input-temp">temperatura</label>
+            <input type="text" id="input-temp" name="input-temp" value="20"/>
+
+            <label for="input-unit">de</label>
+            <select name="input-unit" name="input-unit">
+                <option value="c">Celsius</option>
+                <option value="f">Fahrenheit</option>
+                <option value="k">Kelvin</option>
+            </select>
+            <label for="output-unit">Hacia</label>
+            <select name="output-unit" name="output-unit">
+                <option value="c">Celsius</option>
+                <option value="F">Fahrenheit</option>
+                <option value="K">Kelvin</option>
+            </select>
+            <output name="output-temp" id="output-temp"for="input-temp input-unit output-unit">68 F</output>
+        </form>
+    </body>
+</html>
